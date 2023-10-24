@@ -1,8 +1,6 @@
 import classes.function; // i called the function now if i add the function
 import java.math; // this is java math. it helps so you can do those hard things.
 
-import javax.net.ssl.X509ExtendedTrustManager;
-
 /* in simple terms i don't know much java but i can explain what i did */
 public class main {
     public static void mainProject(String []args) {
