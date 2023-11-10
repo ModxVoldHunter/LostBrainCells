@@ -19,6 +19,9 @@ public class themain {
         // that lol
         other();
 
+        // another one
+        expections();
+
         // fun fact if you use System.out.print() instead of System.out.println() your telling it to not make a new line.
         
     }
@@ -139,4 +142,19 @@ without, its just gonna be like "nah we aint executing that bro" so remember
             System.out.println("Not Equal");
         }
     }
+        
+    public static void expections() {
+        try {
+            int[] myNumbers = {1, 2, 3};
+            System.out.println(myNumbers[10]);
+            } 
+        catch (Exception e) {
+            System.out.println("Something went wrong.");
+            }       
+        finally {
+            System.out.println("The 'try catch' is finished.");
+        }
+    }
 }
+
+
